@@ -3,6 +3,7 @@ Popis:
 Tento skript provádí automatické hledání optimální prahové hodnoty pro binarizaci obrázku. Skript načte šedotónový obrázek, vyzkouší všechny možné prahové hodnoty (od 0 do 255) a zjistí, která z nich vede k nejlepšímu rozdělení pixelů na bílé a černé. Optimální práh je určen na základě maximálního podílu bílých pixelů v binarizovaném obrázku.
 
 Použití:
+
 Upravte cestu k obrázku v proměnné image_path.
 Spusťte skript v Pythonu.
 Skript zobrazí dvě verze obrázku:
